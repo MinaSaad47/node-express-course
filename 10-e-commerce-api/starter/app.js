@@ -23,6 +23,7 @@ app.use("/api/v1/auth", routes.auth);
 app.use("/api/v1/users", routes.users);
 app.use("/api/v1/products", routes.products);
 app.use("/api/v1/reviews", routes.reviews);
+app.use("/api/v1/orders", routes.orders);
 
 // dummy route
 app.use("/api/v1", async (req, res) => {
